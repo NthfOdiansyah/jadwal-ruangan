@@ -10,7 +10,7 @@
     <header>
         <nav class="navbar bg-black position-sticky">
             <div class="container">
-                <a href="#" class="navbar-brand text-light"> JADWAL </a>
+                <a href="#" class="navbar-brand text-light"> JADWAL PENGGUNAAN RUANG DI BINUS CENTER </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info">
@@ -41,9 +41,15 @@
         </div>
     </header>
     <body>
-        <div class="container mt-1">
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5J-eDhNAwkVivtoOauqJZCe2Nq4Lm5BmP1ovI_MF-pwUgSuU3trZ7Llz87cKA2Ns4NxsgZJw7xst1/pubhtml?gid=1966678911&amp;single=true&amp;widget=true&amp;headers=false" height="500" width="900"></iframe>
-        </div>
+        <div class="d-flex mt-1">
+            <div class="p-1 flex-fill">
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5J-eDhNAwkVivtoOauqJZCe2Nq4Lm5BmP1ovI_MF-pwUgSuU3trZ7Llz87cKA2Ns4NxsgZJw7xst1/pubhtml?gid=1966678911&amp;single=true&amp;widget=true&amp;headers=false" height="520" width="935"></iframe>
+            </div>
+            <div class="p-1 flex-fill">
+                <h3> Waktu Sekarang : </h3>
+                <h3 id="time"> </h3>
+            </div>
+        </div> 
     </body>
     <footer>
 
@@ -51,4 +57,5 @@
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/time.js"></script>
 </html>
